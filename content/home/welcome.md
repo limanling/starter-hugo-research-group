@@ -3,7 +3,7 @@
 # Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget: about # See https://wowchemy.com/docs/page-builder/
+widget: aboutme # See https://wowchemy.com/docs/page-builder/
 headless: true  # This file represents a page section.
 
 # Put Your Section Options Here (title, background etc.)

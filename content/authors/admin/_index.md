@@ -10,8 +10,7 @@ last_name: Li
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. candidate in Computer Science
-
+role: CS Ph.D. Candidate
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Illinois at Urbana-Champaign 
@@ -30,14 +29,26 @@ interests:
 education:
   courses:
     - course: PhD in Computer Science
-      institution: University of Illinois at Urbana-Champaign 
+      institution: University of Illinois at Urbana-Champaign
+      advisor: Heng Ji
+      advisorlink: http://blender.cs.illinois.edu/hengji.html
+      committee1: Shih-Fu Chang
+      committee1link: https://www.ee.columbia.edu/~sfchang/
+      committee2: Kyunghyun Cho
+      committee2link: https://kyunghyuncho.me/
+      committee3: Chengxiang Zhai
+      committee3link: http://czhai.cs.illinois.edu/
+      committee4: Jiawei Han
+      committee4link: http://hanj.cs.illinois.edu/
+      thesis: From Entity-Centric to Event-Centric Multimodal Knowledge Acquisition
       year: 2023 (expected)
-    - course: MS in Computer Science
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+  smallcourses:
+    - smallcourse: MS in Computer Science
+      institution: Chinese Academy of Sciences, Institute of Computing Technology
+      year: 2018
+    - smallcourse: BS in Computer Science (IoT)
+      institution: University of Science and Technology Beijing
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -46,16 +57,19 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    label: Drop me an email
+    link: 'mailto:manling2@illinois.edu'
+    display:
+      header: false
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ManlingLi_
     label: Follow me on Twitter
     display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+      header: false
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=6U4SXnUAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
